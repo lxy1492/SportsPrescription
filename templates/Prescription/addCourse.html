@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<div class="header">
+    <h3 class="title">
+        {{ title }}
+    </h3>
+</div>
+<div align="center">
+    <input type="text" placeholder="输入名称">
+    <input type="number" placeholder="输入难度">
+    <p>选择类型<p>
+    <select>
+        <option>
+            <p>有氧</p>
+        </option>
+        <option>
+                <p>力量</p>
+            </option>
+        <option>
+                <p>柔韧</p>
+            </option>
+    </select>
+    <br>
+    <button>创建</button>
+</div>
+</body>
+</html>

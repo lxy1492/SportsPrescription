@@ -1,0 +1,1852 @@
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+p{
+padding:0;
+}
+html,body{
+	font-family: 'Raleway', sans-serif;
+}
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.header{
+	background:url("/static/image/home/ban.jpg");
+	background-size:cover;
+	min-height:1055px;
+	padding-top: 4em;
+}
+.header-top{
+	background: rgba(27, 70, 107, 1);
+	border-top: 5px solid#000;
+	height:6.5em;
+}
+.logo{
+	float:left;
+}
+.logo a {
+	display: block;
+}
+.top-menu{
+	float:right;
+}
+.top-menu ul li{
+	display:inline-block;
+	margin-top:2em;
+}
+.top-menu ul li a{
+	font-size:1.3em;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#fff;
+	margin:0 0.5em ;
+	font-weight: 400;
+}
+.top-menu ul li a:hover {
+	color: #000;
+	font-weight:600;
+}
+
+.top-menu ul li a.active{
+	color:#000;
+	font-weight: 600;
+}
+
+.header-info {
+	margin-top: 22em;
+}
+
+.header-info h1 {
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: 12px solid#262729;
+	padding: 20px 20px;
+	background:rgba(14, 14, 15, 0.77);
+	color: #238D23;
+	width: 22%;
+}
+.header-info h2 {
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: 600;
+	border: 12px solid#262729;
+	padding: 20px 20px;
+	background: rgba(14, 14, 15, 0.77);
+	color: #D7D7D7;
+	width: 70%;
+}
+.about-section {
+	margin: 5em 0;
+}
+.about-grid {
+	width: 47%;
+	float: left;
+	margin-right: 3%;
+}
+.about-grid1 {
+	float: left;
+	width: 50%;
+}
+.about-section h2 {
+	font-size:1.5em;
+}
+.about-grid h2 {
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.about-grid span {
+	font-size: 2em;
+	color: rgb(16, 15, 15);
+	font-weight: 900;
+}
+.about-grid p {
+	font-size: 1.7em;
+	color: #010101;
+	font-weight: 700;
+}
+.about-grid1 p {
+	font-size: 1.25em;
+	font-weight: 500;
+	color: #010101;
+}
+p.text {
+	font-size: 1.25em;
+	font-weight: 500;
+	color: #010101;
+	margin-top: 1em;
+}
+.trainer-section {
+	background: #2c2c2c;
+	padding: 5em 0;
+}
+.trainer-grids {
+	text-align:center;
+}
+.trainer-grid img {
+	border: 10px solid#808080;
+}
+
+.span {
+	border-left: 1px solid#fff;
+	border-right: 1px solid#fff;
+	
+}
+.trainer-grid{
+	position:relative;
+	padding: 15px 0;
+}
+.trainer-info {
+	position: absolute;
+	width: 50%;
+	left: 90px;
+	top: 50px;
+	display:none;
+}
+.trainer-info h3{	
+	font-size: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.trainer-grid:hover div.trainer-info{
+	display:block;
+	background: rgba(0, 0, 0, 0.51);
+	padding: 50px 30px;
+}
+.trainersection-info{
+	background:url("/static/image/home/banner2.jpg");
+	background-size:cover;
+	min-height:350px;
+	text-align: center;
+}
+.trainer-infogrids {
+	padding: 8em 0;
+}
+.label1 {
+	margin-top: 3em;
+}
+.label2 {
+	margin-top: 1.5em;
+}
+.trainer-grid1 {
+	padding: 20px 0;
+}
+.trainer-grid1 h4 {
+	font-size: 2.5em;
+	color: #fff;
+	font-weight: 600;
+	padding: 10px 0;
+}
+.our-trainers{
+	background:#2c2c2c;
+	text-align:center;
+	padding-top: 4em;
+}
+.ourtrainers-header h3{
+	font-size:3em;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:500;
+}
+.ourtrainers-header p{
+	font-size:1.5em;
+	color:#fff;
+}
+.ourtrainer-grid h4 {
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+}
+.ourtrainer-grid p {
+	font-size: 1.2em;
+	color: #fff;
+	margin-bottom: 1em;
+}
+.ourtrainer-grids {
+	margin-top: 5em;
+}
+.ourtrainer-grid img {
+	border-left: 10px solid#808080;
+	border-right: 10px solid#808080;
+	border-top: 10px solid#808080;
+	width: 100%;
+}
+.ourtrainer-grid {
+	position: relative;
+}
+.ourtrainer-info {
+	position: absolute;
+	width: 70%;
+	left: 57px;
+	top: 127px;
+	display: none;
+}
+.ourtrainer-info img {
+	border: none;
+	width: 20%;
+}
+.ourtrainer-info span{
+	font-size: 1em;
+	color: #fff;
+}
+.ourtrainer-grid:hover div.ourtrainer-info{
+	display:block;
+	background:rgba(128, 128, 128, 0.66);
+	border: 7px solid#666666;
+	padding: 10px 10px;
+}
+.our-class{
+	background: #238D23;
+	text-align:center;
+	padding: 4em 0;
+}
+.ourclass-header h3{
+	font-size:3em;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:500;
+}
+.ourclass-header p{
+	font-size:1.5em;
+	color:#fff;
+}
+.ourclass-grid {
+	border: 9px solid #FFF;
+	padding: 0;
+	margin: 0 1%;
+	width: 31.333%;
+}
+.ourclass-grid img{
+	width:100%
+}
+.ourclass-grids {
+	margin-top: 5em;
+}
+.fitness {
+	background: #2f3033;
+	padding: 3em 2em;
+}
+.fitness h4 {
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+}
+.joiningdate {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid#fff;
+	padding: 1em 0;
+}
+.join {
+	float: left;
+}
+.join h5 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+}
+
+.weeks{
+	float:right;
+}
+.weeks p {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+}
+.timing {
+	border-bottom: 1px solid#fff;
+	margin-bottom: 3em;
+	padding: 1em 0;
+}
+.times {
+	float: left;
+}
+.times h5 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+}
+.time {
+	float: right;
+}
+
+.time p {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color:#fff;
+	font-weight: 600;
+}
+.fitness a {
+	font-size: 1.5em;
+	border: 1px solid#fff;
+	text-transform: uppercase;
+	padding: 1em 4em;
+	text-decoration: none;
+	color: #fff;
+	background: #238D23;
+	border:none;
+}
+.fitness a:hover {
+	border: 8px solid#6e6f72;
+}
+/*---------------*/
+div#testimonial {
+	background: url("/static/image/home/banner3.jpg");
+background-size: cover;
+min-height: 350px;
+text-align: center;
+}
+}
+div#testimonial h3 {
+	text-align: center;
+	margin: 4% 0;
+	color: #404042;
+	font-size: 3em;
+	text-decoration: none;
+	font-weight: 700;
+}
+#testimonial p {
+	color: #fff;
+	font-size: 1.5em;
+	text-decoration: none;
+	font-weight: 400;
+	margin: 1em auto 0;
+	text-align: left;
+}
+#testimonial h4{
+	color: #fff;
+	font-size: 2em;
+	text-decoration: none;
+	font-weight: 600;
+	margin: 1em auto 0;
+	text-align: left;
+}
+
+.test-monials {
+	margin-top: 5em;
+}
+#owl-demo .item img {
+	border:10px solid #808080;
+}
+.fitnesstips-section {
+	margin-top: 4em;
+}
+.fitnesstip-header {
+width: 76%;
+margin: 0 auto;
+
+}
+.fitnesstip-header h3 {
+	font-size: 2.5em;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 700;
+}
+.fitnesstip-header p {
+	font-size: 1.7em;
+	color: #000;
+	font-weight: 500;
+}
+.fitnesstips-grids {
+	margin-top: 3em;
+}
+.right-grid{
+background:#2f3033;
+padding: 2em 4em;
+
+}
+.right-grid h4 {
+	font-size: 2em;
+	font-weight: 600;
+	color:#fff;
+}
+.right-grid p {
+	font-size: 1.3em;
+	font-weight: 300;
+	color: #fff;
+	line-height: 1.8em;
+	padding: 1px 178px 0 0;
+}
+.date {
+	float: left;
+}
+.date h5{
+	font-size: 1.5em;
+	font-weight: 300;
+	color:#fff;
+}
+.detail {
+	float: right;
+}
+.details{
+	margin-top: 2.5em;
+}
+.detail a {
+	font-size: 1.5em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+.detail a:hover {
+	color: rgb(245, 0, 255);
+}
+.left-grid img {
+	width: 100%;
+}
+.left-grid  {
+	padding:0;
+}
+.fitnesstips-grid1 {
+	margin-left: 26em;
+}
+.left-grid1{
+background:#2f3033;
+padding: 2em 4em;
+
+}
+.left-grid1 h4 {
+	font-size: 2em;
+	font-weight: 600;
+	color:#fff;
+}
+.left-grid1 p {
+	font-size: 1.3em;
+	font-weight: 300;
+	color: #fff;
+	line-height: 1.8em;
+	padding: 1px 178px 0 0;
+}
+.right-grid1 img {
+	width: 100%;
+}
+.right-grid1 {
+	padding: 0;
+}
+.fitnesstips-grid2 {
+	margin: 2px 26em 2px 0;
+}
+.fitnesstips-grid3 {
+margin-left:26em ;
+}
+.map{
+	position:relative;
+	margin-top: 4em;
+}
+.map iframe{
+	width:100%;
+	min-height:500px;
+}
+.map-layer{
+	background:#1a1a1a;
+	min-height:500px;
+}
+.map-layer {
+	background: rgba(26, 26, 26, 0.48);
+	min-height: 505px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+/*-- contact-page-starts-here --*/
+
+.contact-section {
+	padding: 3em 0;
+}
+.contact-section h3 {
+	color: rgb(51, 51, 51);
+	font-size: 2.9em;
+	font-weight: 300;
+	letter-spacing: 2px;
+	margin-bottom: 1em;
+}
+.contact-top p {
+	color: #000;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+.contact-section. {
+	padding: 4em 0;
+}
+.contact-section-bottom {
+	position: relative;
+}
+.contact-form {
+	background: #238D23;
+	padding: 4.5em 3em;
+	position: absolute;
+	z-index: 1;
+	width: 60%;
+	top: -24em;
+	left: 22em;
+}
+.contact-form input[type="text"], .contact-form textarea {
+	width: 100%;
+	color: #238D23;
+	font-size: 20px;
+	padding: 20px 20px;
+	border: none;
+	outline: none;
+	margin: 0 0px 15px 0;
+	background: #FFF;
+}
+.contact-form textarea {
+	resize: none;
+	width: 98%;
+	height: 11.6em;
+}
+.contact-form input[type="submit"] {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	border: 8px solid #2f3033;
+	padding: 10px 90px;
+	outline: none;
+	background: #2f3033;
+	margin: 1em 0px 0 20em;
+	text-align: center;
+}
+.contact-form input[type="submit"]:hover{
+	border: 8px solid #FFF;
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	
+}
+.footer-section{
+	background:#1f1f1f;
+	padding:15em 0 4em 0;
+	text-align:center;
+}
+.footer-top span {
+	height: 1px;
+	width: 14%;
+	background: #676767;
+	display: block;
+	margin: 18px auto 12px;
+}
+.footer-top label {
+height: 1px;
+width: 20%;
+background: #676767;
+display: inline-block;
+}
+
+.social-icons i {
+	width: 25px;
+	height: 25px;
+	background: url('/static/image/home/img-sprite.png') no-repeat 0px 0px;
+	display: inline-block;
+}
+i.facebook {
+	background-position: 0px 0px;
+}
+i.twitter {
+	background-position: -25px 0px;
+}
+.social-icons a  i.facebook:hover {
+opacity: 0.5;
+}
+.social-icons a  i.twitter:hover {
+opacity: 0.5;
+}
+.footer-bottom {
+	text-align: center;
+	
+}
+.footer-bottom p {
+	font-weight: 400;
+	font-size: 1.2em;
+	color: #ffffff;
+	
+}
+.footer-bottom a {
+	font-size: 19px;
+	color: #238D23;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.footer-bottom a:hover {
+	color: #d5d6d7;
+}
+.footer-bottom p a {
+	margin: 0 6px 0 6px;
+}
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	overflow: hidden;
+	width: 48px;
+	height: 48px;
+	border: none;
+	text-indent: 100%;
+	background: url("/static/image/home/to-top2.png") no-repeat 0px 0px;
+}
+		
+		/*-- responsive-mediaquries --*/
+@media(max-width:1366px){
+			.header {
+				min-height: 890px;
+			}
+			.header-info {
+				margin-top: 17em;
+			}
+			.right-grid p {
+				font-size: 1.2em;
+				line-height: 1.5em;
+				padding: 1px 27px 0 0;
+			}
+			.right-grid {
+				padding: 1.1em 4em;
+			}
+			.details {
+				margin-top: 2em;
+			}
+			.left-grid1 p {
+				font-size: 1.2em;
+				line-height: 1.5em;
+				padding: 1px 27px 0 0;
+			}
+			.left-grid1 {
+				padding: 1.1em 4em;
+			}
+			.contact-form input[type="submit"] {
+				margin: 1em 0px 0 15em;
+			}
+			.contact-form {
+				left: 20em;
+			}
+}
+@media (max-width: 1280px){
+			.header {
+				min-height: 835px;
+			}
+			.header-info h1 {
+				font-size: 2.7em;
+			}
+			.header-info h2 {
+				font-size: 2.5em;
+				width: 60%;
+			}
+			.ourtrainers-header h3 {
+				font-size: 2.8em;
+			}
+			.ourclass-header h3 {
+				font-size: 2.8em;
+			}
+			.right-grid h4 {
+				font-size: 1.8em;
+			}
+			.details {
+				margin-top: 1.1em;
+			}
+			.right-grid p {
+				font-size: 1.11em;
+				line-height: 1.6em;
+				padding: 1px 0px 0 0;
+			}
+			.left-grid1 h4 {
+				font-size: 1.8em;
+			}
+			.left-grid1 p {
+				font-size: 1.11em;
+				line-height: 1.6em;
+				padding: 1px 0px 0 0;
+			}
+			.contact-form {
+				left: 19em;
+			}
+			.contact-form input[type="submit"] {
+				margin: 1em 0px 0 14em;
+			}
+	}
+	@media (max-width: 1024px){
+			.header {
+				min-height: 675px;
+			}
+			.header-info {
+				margin-top: 9em;
+			}
+			.header-info h1 {
+				font-size: 2.5em;
+				width: 25%;
+			}
+			.header-info h2 {
+				font-size: 2em;
+			}
+			.about-grid h2 {
+				font-size: 1.5em;
+			}
+			.about-grid span {
+				font-size: 1.7em;
+			}
+			.about-grid p {
+				font-size: 1.5em;
+			}
+			.about-grid1 p {
+				font-size: 1.1em;
+			}
+			p.text {
+				font-size: 1.1em;
+			}
+			.trainer-info h3 {
+				font-size: 1.5em;
+			}
+			.trainer-grid1 h4 {
+				font-size: 2em;
+			}
+			.trainer-infogrids {
+				padding: 5em 0;
+			}
+			.ourtrainers-header h3 {
+				font-size: 2.3em;
+			}
+			.ourtrainers-header p {
+				font-size: 1.2em;
+				color: #fff;
+			}
+			.ourtrainer-grids {
+				margin-top: 3em;
+			}
+			.ourtrainer-grid h4 {
+				font-size: 1.5em;
+			}
+			.ourtrainer-info {
+				position: absolute;
+				width: 70%;
+				left: 49px;
+				top: 99px;
+				display: none;
+			}
+			.ourtrainer-info span {
+				font-size: 0.81em;
+				color: #fff;
+			}
+			.ourclass-header h3 {
+					font-size: 2.4em;
+			}
+			.ourclass-header p {
+				font-size: 1.3em;
+			}
+			.fitness h4 {
+				font-size: 1.5em;
+			}
+			.join h5 {
+				font-size: 1.1em;
+			}
+			.weeks p {
+				font-size: 1em;
+			}
+			.times h5 {
+				font-size: 1em;
+			}
+			.time p {
+				font-size: 1em;
+			}
+			.fitness a {
+				font-size: 1.2em;
+			}
+			#testimonial p {
+				color: #fff;
+				font-size: 1.2em;
+			}
+			#testimonial h4 {
+				color: #fff;
+				font-size: 1.5em;
+			}
+			.fitnesstip-header h3 {
+				font-size: 2em;
+			}
+			.fitnesstip-header p {
+				font-size: 1.1em;
+			}
+			.fitnesstips-grid1 {
+				margin-left: 11em;
+			}
+			.fitnesstips-grid2 {
+				margin: 2px 11em 2px 0;
+			}
+			.fitnesstips-grid3 {
+				margin-left: 11em;
+			}
+			
+			.right-grid h4 {
+				font-size: 1.5em;
+			}
+			.right-grid p {
+				font-size: 1em;
+				padding: 9px 0px 0 0;
+			}
+			.left-grid1 h4 {
+				font-size: 1.5em;
+			}
+			.left-grid1 p {
+				font-size: 1em;
+				padding: 9px 0px 0 0;
+			}
+			.detail a {
+				font-size: 1.3em;
+			}
+			.date h5 {
+				font-size: 1.3em;
+			}
+			.map iframe {
+				width: 100%;
+				min-height: 420px;
+			}
+			.contact-form {
+				left: 10em;
+				padding: 3.5em 3em;
+				position: absolute;
+				z-index: 1;
+				width: 74%;
+				top: -24em;
+			}
+			.contact-form textarea{
+				height: 11.7em;
+			}
+			.contact-form input[type="submit"] {
+				margin: 1em 0px 0 13em;
+			}
+			.footer-section {
+				background: #1f1f1f;
+				padding: 10em 0 4em 0;
+			}
+		}
+@media (max-width: 800px){
+			.header {
+				min-height: 510px;
+				padding-top: 2.5em;
+			}
+			.logo img {
+				width: 85%;
+			}
+			.header-top {
+				height: 5em;
+			}
+			.top-menu ul li {
+				margin-top: 1.7em;	
+			}
+			.top-menu ul li a {
+				font-size: 1.1em;
+				margin: 0 0.3em;
+			}
+			.header-info {
+				margin-top: 8em;
+			}
+			.header-info h1 {
+				font-size: 2em;
+				width: 27%;
+				padding: 15px 15px;
+			}
+			.header-info h2 {
+				font-size: 1.5em;
+				padding: 15px 15px;
+			}
+			.about-section {
+				margin: 3em 0;
+			}
+			.about-grid h2 {
+				font-size: 1.2em;
+			}
+			.about-grid span {
+				font-size: 1.5em;
+			}
+			.about-grid1 p {
+				font-size: 1em;
+			}
+			p.text {
+				font-size: 1em;
+			}
+			.trainer-section {
+				padding: 3em 0;
+			}
+			.trainer-grid {
+				float: left;
+				width: 33.3%;
+				padding: 0 2%;
+			}
+			.trainer-grid img {
+				width: 100%;
+			}
+			.trainer-info {
+				position: absolute;
+				width: 58%;
+				left: 51px;
+				top: 22px;
+				display: none;
+			}
+			.trainer-info h3 {
+				font-size: 1.3em;
+			}
+			.trainer-infogrids {
+				padding: 3em 0;
+			}
+			.trainer-grid1 {
+				padding: 15px 0;
+				width: 30.3%;
+				float: left;
+			}
+			.trainersection-info {
+				min-height: 300px;
+			}
+			.trainer-grid1 h4 {
+				font-size: 1.5em;
+			}
+			.ourtrainers-header h3 {
+				font-size: 2em;
+			}
+			.ourtrainers-header p {
+				font-size: 1.09em;
+			}
+			.ourtrainer-grid {
+				float: left;
+				width: 33.3%;
+			}
+			.ourtrainer-grid h4 {
+				font-size: 1.35em;
+			}
+			.ourtrainer-grid p {
+				font-size: 1em;
+			}
+			.our-class {
+				padding: 2em 0;
+			}
+			.ourclass-header h3 {
+				font-size: 2em;
+			}
+			.ourclass-header p {
+				font-size: 1em;
+			}
+			.ourtrainer-info p {
+				font-size: 0.81em;
+				color: #fff;
+				height: 78px;
+				overflow: hidden;
+			}
+			.ourclass-grid {
+				float: left;
+				width: 31.3%;
+				margin: 0% 1%;
+			}
+			.ourtrainer-info {
+				position: absolute;
+				width: 70%;
+				left: 36px;
+				top: 92px;
+				display: none;
+			}
+			.fitness h4 {
+				font-size: 1.3em;
+			}
+			.fitness {
+				background: #2f3033;
+				padding: 2em 1em;
+			}
+			.join h5 {
+				font-size: 1em;
+				padding: 0.2em 0px;
+			}
+			.weeks p {
+				font-size: 1em;
+			}
+			.timing {
+				margin-bottom: 2.5em;
+			}
+			.fitness a {
+				font-size: 1.1em;
+				padding: 1em 3em;
+			}
+			.test-monials {
+				margin-top: 3.5em;
+			}
+			#owl-demo .item img {
+				border: 10px solid #808080;
+				width: 100%;
+			}
+			.testmonial-img {
+				float: left;
+				width: 32%;
+			}
+			#testimonial p {
+				color: #fff;
+				font-size: 1em;
+			}
+			#testimonial h4 {
+				color: #fff;
+				font-size: 1.4em;
+				margin: 1.5em auto 0;
+			}
+			div#testimonial {
+				min-height: 330px;
+			}
+			.fitnesstips-section {
+				margin-top: 3em;
+			}
+			.fitnesstip-header h3 {
+				font-size: 1.5em;
+			}
+			.fitnesstip-header p {
+				font-size: 1em;
+			}
+			.left-grid {
+				padding: 0;
+				float: left;
+				width: 30%;
+			}
+			.right-grid {
+				padding: 1.1em 2em;
+			}
+			.right-grid {
+				float: left;
+				width: 70%;
+			}
+			.fitnesstips-grid1 {
+				margin-left: 3em;
+			}
+			.right-grid h4 {
+				font-size: 1.3em;
+			}
+			.right-grid p {
+				font-size: 1em;
+				padding: 12px 0px 0 0;
+				height: 82px;
+				overflow: hidden;
+			}
+			.date h5 {
+				font-size: 1.2em;
+			}
+			.detail a {
+				font-size: 1.2em;
+			}
+			.details {
+				margin-top: 1.2em;
+			}
+			.right-grid1 {
+				padding: 0;
+				float: left;
+				width: 30%;
+			}
+			.left-grid1 {
+				padding: 1.055em 2em;
+			}
+			.left-grid1 {
+				float: left;
+				width: 70%;
+			}
+			.fitnesstips-grid2 {
+				margin: 2px 3em 2px 0;
+			}
+			.left-grid1 h4 {
+				font-size: 1.3em;
+			}
+			.left-grid1 p {
+				font-size: 1em;
+				padding: 12px 0px 0 0;
+				height: 82px;
+				overflow: hidden;
+			}
+			.fitnesstips-grid3 {
+				margin-left: 3em;
+			}
+			.map iframe {
+				width: 100%;
+				min-height: 400px;
+			}
+			.contact-left {
+				float: left;
+				width: 50%;
+			}
+			.contact-right {
+				float: left;
+				width: 50%;
+			}
+			.contact-form {
+				left: 6em;
+				padding: 3em 1em;
+				position: absolute;
+				z-index: 1;
+				width: 79%;
+				top: -24em;
+			}
+			.contact-form input[type="submit"] {
+				margin: 1em 0px 0 11em;
+				padding: 10px 80px;
+			}
+			.footer-section {
+				background: #1f1f1f;
+				padding: 7em 0 4em 0;
+			}
+		}
+@media (max-width: 640px){
+			span.menu:before {
+				content: url("/static/image/home/nav-icon.png");
+				cursor: pointer;
+				margin: 14px 23px 0 0;
+				width: 30px;
+				height: 30px;
+				display: inline-block;
+		}
+		.header-top {
+			height: 4em;
+		}
+			.top-menu {
+				width: 100%;
+				text-align: right;
+			}
+			.top-menu {
+				float: none;
+				margin-top: 0;
+			}
+			.top-menu  ul{
+				display:none;
+			}
+			.top-menu  ul li {
+				font-size: 17px;
+				margin: 10px 0;
+				display: block;
+			}
+			.top-menu  ul{
+				margin-top:1.3em;
+				padding: 1em 0;
+				z-index: 999;
+				position: absolute;
+				width: 95%;
+				background:rgba(27, 70, 107, 0.64);
+				text-align: center;
+			}
+			.top-menu ul li a {
+				font-size: 16px;
+				display:block;
+				padding:0
+			}
+			.header-info h1 {
+				font-size: 1.8em;
+				width: 30%;
+				padding: 10px 10px;
+			}	
+			.header {
+				min-height: 415px;
+				padding-top: 1.5em;
+			}
+			.header-info h2 {
+				font-size: 1.15em;
+				padding: 10px 10px;
+				width: 55%;
+			}
+			.header-info {
+				margin-top: 7em;
+			}
+			.about-section {
+				margin: 2em 0;
+			}
+			.about-grid{
+				padding:0;
+			}
+			.about-grid h2 {
+				font-size: 1em;
+			}
+			.about-grid p {
+				font-size: 1.1em;
+			}
+			.about-grid1 p {
+				font-size: 1em;
+				height: 59px;
+				overflow: hidden;
+			}
+			.about-grid1 {
+				padding: 0;
+			}
+			.trainer-info h3 {
+				font-size: 1em;
+			}
+			.trainer-grid:hover div.trainer-info {
+				padding: 35px 20px;
+			}
+			.trainer-info {
+				position: absolute;
+				width: 58%;
+				left: 40px;
+				top: 24px;
+				display: none;
+			}
+			.trainer-grid1 {
+				padding: 0;
+			}
+			.trainersection-info {
+				min-height: 245px;
+			}
+			.trainer-grid1 h4 {
+				font-size: 1.2em;
+			}
+			.our-trainers {
+				padding-top: 2em;
+			}
+			.ourtrainers-header h3 {
+				font-size: 1.6em;
+			}
+			.ourtrainers-header p {
+				font-size: 0.95em;
+			}
+			.ourtrainer-grid h4 {
+				font-size: 1.1em;
+			}
+			.ourtrainer-grid p {
+				font-size: 0.9em;
+			}
+			.ourtrainer-info p {
+				height: 38px;
+				overflow: hidden;
+			}
+			.ourtrainer-info span {
+				font-size: 1em;
+			}
+			.ourtrainer-info {
+				position: absolute;
+				width: 70%;
+				left: 30px;
+				top: 87px;
+				display: none;
+			}
+			.ourclass-header h3 {
+				font-size: 1.6em;
+			}
+			.ourclass-header p {
+				font-size: 0.9em;
+			}
+			.ourclass-grids {
+				margin-top: 3em;
+			}
+			.fitness h4 {
+				font-size: 1.1em;
+			}
+			.fitness {
+				padding: 2em 0.5em;
+			}
+			.join h5 {
+				font-size: 0.8em;
+				padding: 0.2em 0.2em;
+			}
+			.weeks p {
+				font-size: 0.8em;
+			}
+			.times h5 {
+				font-size: 0.8em;
+			}
+			.time p {
+				font-size: 0.8em;
+			}
+			.joiningdate {
+				padding: 0.5em 0;
+			}
+			.timing {
+				margin-bottom: 2em;
+				padding: 0.5em 0;
+			}
+			.fitness a {
+				font-size: 1.15em;
+				padding: 1em 2em;
+			}
+			#testimonial p {
+				color: #fff;
+				font-size: 0.9em;
+			}
+			#testimonial h4 {
+				color: #fff;
+				font-size: 1.3em;
+				margin: 1.5em auto 0;
+			}
+			.fitnesstip-header h3 {
+				font-size: 1.3em;
+			}
+			.fitnesstip-header p {
+				font-size: 1em;
+				height: 40px;
+				overflow: hidden;
+			}
+			.fitnesstips-grids {
+				margin-top: 2em;
+			}
+			.right-grid h4 {
+				font-size: 1.2em;
+			}
+			.right-grid p {
+				font-size: 1em;
+				padding: 7px 0px 0 0;
+				height: 48px;
+				overflow: hidden;
+			}
+			.details {
+				margin-top: 1em;
+			}
+			.detail a {
+				font-size: 1.1em;
+			}
+			.left-grid1 h4 {
+				font-size: 1.2em;
+			}
+			.left-grid1 p {
+				font-size: 1em;
+				padding: 7px 0px 0 0;
+				height: 49px;
+				overflow: hidden;
+			}
+			.contact-form input[type="text"], .contact-form textarea {
+				padding: 10px 20px;
+			}
+			.contact-form textarea {
+				height: 8.6em;
+			}
+			.contact-form input[type="submit"] {
+				margin: 1em 0px 0 7em;
+				padding: 10px 70px;
+			}
+			.footer-section {
+				background: #1f1f1f;
+				padding: 5em 0 2em 0;
+			}
+			.footer-bottom p {
+				font-size: 1.1em;
+			}
+			.footer-bottom a {
+				font-size: 17px;
+			}
+		}
+@media (max-width: 480px){
+		.logo img {
+			width: 60%;
+		}
+		.top-menu ul {
+			width: 94%;
+			padding: 0.5em 0;
+		}
+		.header-top {
+			height: 4em;
+		}
+		.header-info h1 {
+			font-size: 1.4em;
+			padding: 9px 9px;
+		}
+		.header {
+			min-height: 310px;
+			padding-top: 1em;
+		}
+		.header-info {
+			margin-top: 4em;
+		}
+		.header-info h2 {
+			font-size: 1em;
+			padding: 9px 9px;
+			width: 66%;
+		}
+		.about-grid h2 {
+			font-size: 0.9em;
+			margin: 0;
+		}
+		.about-grid p {
+			font-size: 1em;
+		}
+		.about-grid1 p {
+			font-size: 0.9em;
+			height: 52px;
+			overflow: hidden;
+		}
+		.trainer-info h3 {
+			font-size: 0.9em;
+		}
+		.trainer-grid:hover div.trainer-info {
+			padding: 20px 10px;
+		}
+		.trainer-info {
+			left: 30px;
+		}
+		.trainersection-info {
+			min-height: 180px;
+		}
+		.trainer-grid1 img {
+			width: 50%;
+		}
+		.label1 {
+			margin-top: 1.7em;
+		}
+		.label2 {
+			margin-top: 0;
+		}
+		.trainer-grid1 h4 {
+			font-size: 1em;
+		}
+		.ourtrainers-header h3 {
+			font-size: 1.4em;
+			margin: 0;
+		}
+		.ourtrainers-header p {
+			font-size: 0.8em;
+		}
+		.ourtrainer-grid h4 {
+			font-size: 1em;
+			margin: 0;
+		}
+		.ourtrainer-grids {
+			margin-top: 2em;
+		}
+		.ourtrainer-grid p {
+			font-size: 0.89em;
+		}
+		.ourtrainer-grid {
+			padding: 0 7px 0 0;
+		}
+		.ourtrainer-grid img {
+			border-left: 5px solid#808080;
+			border-right: 5px solid#808080;
+			border-top: 5px solid#808080;
+		}
+		.ourtrainer-info img {
+			width: 14%;
+			border: none;
+		}
+		.ourtrainer-info {
+			position: absolute;
+			width: 80%;
+			left: 11px;
+			top: 58px;
+			display: none;
+		}
+		.ourclass-header h3 {
+			font-size: 1.4em;
+			margin: 0;
+		}
+		.ourclass-grids {
+			margin-top: 2em;
+		}
+		.ourclass-grid {
+			border: 4px solid #FFF;
+		}
+		.fitness h4 {
+			font-size: 1em;
+		}
+		.fitness {
+			padding: 2em 0.2em;
+		}
+		.join h5 {
+			font-size: 0.72em;
+			padding: 0;
+			margin: 0;
+		}
+		.weeks p {
+			font-size: 0.72em;
+		}
+		.times h5 {
+			font-size: 0.72em;
+		}
+		.time p {
+			font-size: 0.72em;
+		}
+		.fitness a {
+			font-size: 0.9em;
+			padding: 1em 1em;
+		}
+		.test-monials {
+			margin-top: 1.5em;
+		}
+		#testimonial p {
+			color: #fff;
+			font-size: 0.9em;
+			height: 39px;
+			overflow: hidden;
+		}
+		.testmonial-img {
+			float: left;
+			width: 40%;
+		}
+		div#testimonial {
+			min-height: 245px;
+		}
+		.fitnesstips-section {
+			margin-top: 2em;
+		}
+		.fitnesstip-header h3 {
+			font-size: 1.1em;
+			margin:0;
+		}
+		.fitnesstips-grid1 {
+			margin-left: 1em;
+		}
+		.right-grid {
+			padding: 1em 1em;
+		}
+		.right-grid h4 {
+			font-size: 1em;
+			margin: 0;
+		}
+		.right-grid p {
+			font-size: 0.9em;
+			padding: 8px 0px 0 0;
+			height: 30px;
+			overflow: hidden;
+		}
+		.details {
+			margin-top: 1.2em;
+		}
+		.date h5 {
+			font-size: 1em;
+		}
+		.detail a {
+			font-size: 1em;
+		}
+		.fitnesstips-grid2 {
+			margin: 2px 1em 2px 0;
+		}
+		.left-grid1 h4 {
+			font-size: 1em;
+			margin: 0;
+		}
+		.left-grid1 p {
+			font-size: 0.9em;
+			padding: 8px 0px 0 0;
+			height: 30px;
+			overflow: hidden;
+		}
+		.left-grid1 {
+			padding: 1em 1em;
+		}
+		.fitnesstips-grid3 {
+			margin-left: 1em;
+		}
+		.map iframe {
+			width: 100%;
+			min-height: 310px;
+		}
+		.contact-form {
+			left: 2.5em;
+			padding: 2em 1em;
+			position: absolute;
+			z-index: 1;
+			width: 85%;
+			top: -19em;
+		}
+		.contact-form input[type="text"], .contact-form textarea {
+			font-size: 13px;
+			padding: 14px 14px;
+			margin: 0 0px 10px 0;
+		}
+		.contact-form input[type="submit"] {
+				font-size: 14px;
+				padding: 10px 50px;
+				border: 3px solid #2f3033;
+		}
+		.contact-form input[type="submit"]:hover {
+			border: 3px solid #FFF;
+		}
+		.contact-form textarea {
+			height: 12em;
+		}
+		.footer-top img {
+			width: 25%;
+		}	
+		footer-bottom p {
+			font-size: 1em;
+		}
+		.footer-bottom a {
+			font-size: 16px;
+			}
+		}
+@media (max-width: 320px) {
+	.header {
+		min-height: 260px;
+		padding-top: 0.7em;
+	}
+
+	.header-top {
+		height: 3em;
+	}
+
+	.logo img {
+		width: 45%;
+	}
+
+	.header-info h1 {
+		font-size: 1.4em;
+		padding: 9px 9px;
+		border: 4px solid #262729;
+		width: 42%;
+	}
+
+	.header-info {
+		margin-top: 1em;
+	}
+
+	.header-info h2 {
+		font-size: 0.8em;
+		padding: 9px 9px;
+		width: 98%;
+		border: 5px solid #262729;
+	}
+
+	span.menu:before {
+		content: url(../images/nav-icon.png);
+		cursor: pointer;
+		margin: 7px 0px 0 0;
+		width: 24px;
+	}
+
+	.top-menu ul {
+		width: 90%;
+	}
+
+	.top-menu ul li a {
+		font-size: 13px;
+	}
+
+	.header-info {
+		margin-top: 4em;
+	}
+
+	.about-grid {
+		width: 100%;
+		text-align: center;
+	}
+
+	.about-grid1 {
+		width: 100%;
+		margin-top: 1em;
+	}
+
+	.about-grid p {
+		font-size: 0.94em;
+	}
+
+	.trainer-section {
+		padding: 1em 0;
+	}
+
+	.trainer-grid {
+		width: 100%;
+		border: none;
+		margin-top: 2em;
+	}
+
+	.trainer-info {
+		position: absolute;
+		width: 78%;
+	}
+
+	.trainer-grid img {
+		border: 5px solid #808080;
+	}
+
+	.trainer-info h3 {
+		font-size: 1em;
+		margin: 0;
+	}
+
+	.trainer-grid1 {
+		width: 100%;
+	}
+
+	.trainer-grid1 img {
+		width: 30%;
+	}
+
+	.trainer-grid:hover div.trainer-info {
+		padding: 75px 10px;
+	}
+
+	.ourtrainer-grid {
+		width: 100%;
+		padding: 0;
+		margin-top: 1em;
+	}
+
+	.ourtrainer-grid:hover div.ourtrainer-info {
+		border: 5px solid #666666;
+		padding: 15px 15px;
+	}
+
+	.ourtrainer-info {
+		position: absolute;
+		width: 80%;
+		left: 26px;
+		top: 77px;;
+		display: none;
+	}
+
+	.ourtrainer-info img {
+		width: 17%;
+		border: none;
+	}
+
+	.ourclass-grid {
+		width: 100%;
+		margin-top: 1em;
+	}
+
+	.testmonial-img {
+		width: 100%;
+	}
+
+	#testimonial h4 {
+		color: #fff;
+		font-size: 1.2em;
+		margin: 12em 49px 15px;
+	}
+
+	.fitness a {
+		font-size: 0.9em;
+		padding: 1em 3em;
+	}
+
+	.fitness a:hover {
+		border: 3px solid #6e6f72;
+	}
+
+	.ourtrainer-info span {
+		font-size: 1em;
+	}
+
+	.ourtrainer-info p {
+		height: 123px;
+		overflow: hidden;
+	}
+
+	.fitnesstips-grids {
+		margin-top: 1em;
+	}
+
+	.fitnesstip-header p {
+		font-size: 0.9em;
+		height: 35px;
+		overflow: hidden;
+	}
+
+	.fitness {
+		padding: 2em 0.7em;
+	}
+
+	.joiningdate {
+		padding: 0.5em 0.5em;
+	}
+
+	.timing {
+		margin-bottom: 2em;
+		padding: 0.5em 0.5em;
+	}
+
+	.left-grid {
+		width: 100%;
+	}
+
+	.right-grid {
+		width: 100%;
+		padding: 1em 0.5em;
+	}
+
+	.left-grid1 {
+		width: 100%;
+		padding: 1em 0.5em;
+	}
+
+	.right-grid1 {
+		width: 100%;
+	}
+
+	.fitnesstips-grid2 {
+		margin: 6px 0em 6px 1em;
+	}
+
+	.contact-left {
+		width: 100%;
+	}
+
+	.contact-right {
+		width: 100%;
+	}
+
+	.contact-form {
+		left: 8%;
+	}
+
+	.contact-form input[type="submit"] {
+		font-size: 14px;
+		padding: 5px 35px;
+		margin: 1em 0px 0 4em;
+	}
+
+	.contact-form input[type="text"], .contact-form textarea {
+		font-size: 13px;
+		padding: 9px 14px;
+	}
+
+	.contact-form textarea {
+		height: 9em;
+		width: 100%;
+	}
+
+	.footer-section {
+		padding: 10em 0 2em 0;
+	}
+
+	.footer-bottom p {
+		font-size: 0.9em;
+	}
+
+	.footer-bottom a {
+		font-size: 15px;
+	}
+}

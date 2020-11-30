@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'js/courses.js' %}"></script>
+    <script src="{% static 'js/sports.js' %}"></script>
+    <style>
+        .sportImage{
+            width: 42%;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h3 style="display: inline-block">{{ title }}</h3>
+        <a style="display: inline-block" href="../"><h3>返回上一级</h3></a>
+    <div class="selectCourses">
+        <select onchange="getCoursesList()" class="selectCourse">
+            {% for c in courseList %}
+                <option>
+                    <p class="selectP">{{ c }}</p>
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="selectSports">
+
+    </div>
+    <div class="description">
+        <p class="descriptionP"></p>
+        <p class="difficultyP"></p>
+    </div>
+<div align="center">
+    <p>
+        作用效果及对象
+    </p>
+</div>
+<hr>
+<div class="effectAndtarget">
+
+            <table>
+                <tr>
+                    {% for e in effect %}
+                        <td>
+                            <input onchange="setEffect(this)" class="checkEffect" type="checkbox" data-effect="{{ e }}" style="display: inline-block"><p style="display: inline-block">{{ e }}</p>
+                        </td>
+                    {% endfor %}
+                </tr>
+            <tr>
+                {% for t in target %}
+                <td>
+                            <input onchange="setTarget(this)" class="checkTarget" type="checkbox" data-target={{ t }} style="display: inline-block"><p style="display: inline-block">{{ t }}</p>
+                        </td>
+                {% endfor %}
+            </tr>
+            </table>
+
+        </div>
+    <hr>
+    <div class="sportInfo">
+
+    </div>
+</div>
+</body>
+<script>
+    $(".effectAndtarget").fadeOut();
+    getCoursesList();
+</script>
+</html>

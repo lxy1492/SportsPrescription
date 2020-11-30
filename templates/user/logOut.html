@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+
+<div class="result">
+    <h2 >退出登录...</h2>
+</div>
+</body>
+<script>
+    localStorage.removeItem("id");
+    localStorage.removeItem("statusCode");
+    h = document.getElementsByClassName("result");
+    h.innerHTML  = "<h2 >已退出登录</h2>"
+</script>
+</html>

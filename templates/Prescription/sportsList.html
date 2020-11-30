@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'js/sports.js' %}"></script>
+    <style>
+        .sportImage{
+            width: 42%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h3 style="display: inline-block">{{ title }}</h3>
+        <a style="display: inline-block" href="../"><h3>返回上一级</h3></a>
+    </div>
+
+    <div class="sportsList">
+        <select id="select_Sport" onchange="selectSport()">
+            {% for s in sports %}
+                <option>
+                    <p class="selectP">
+                        {{ s }}
+                    </p>
+                </option>
+            {% endfor %}
+        </select>
+        <input type="text" id="rename" placeholder="重命名"><button onclick="reName()">重命名运动项目</button><br>
+        <input type="number" id="strength" placeholder="设置运动强度"><button onclick="setStrength()">设置运动强度</button>
+        <input type="number" id="sportTime" placeholder="设置运动时长"><button onclick="setSportTime()">设置运动时长</button>
+        <input type="number" id="frequency" placeholder="设置运动频率"><button onclick="setFrequency()">设置频率</button>
+    <hr>
+    <div class="effectAndtarget">
+            <table>
+                <tr>
+                    {% for e in effect %}
+                        <td>
+                            <input onchange="setEffect(this)" class="checkEffect" type="checkbox" data-effect="{{ e }}" style="display: inline-block"><p style="display: inline-block">{{ e }}</p>
+                        </td>
+                    {% endfor %}
+                </tr>
+            <tr>
+                {% for t in target %}
+                <td>
+                            <input onchange="setTarget(this)" class="checkTarget" type="checkbox" data-target={{ t }} style="display: inline-block"><p style="display: inline-block">{{ t }}</p>
+                        </td>
+                {% endfor %}
+            </tr>
+            </table>
+
+        </div>
+    <hr>
+    <div class="sportInfo">
+
+    </div>
+    </div>
+</body>
+<script>
+    selectSport();
+</script>
+</html>

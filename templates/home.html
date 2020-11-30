@@ -1,0 +1,458 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    {% load static %}
+<title>{{ title }}</title>
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all">
+<link href="{% static 'css/homestyle.css' %}" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Fit life Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.useso.com/css?family=Raleway:400,300,200,100,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<script src="{% static 'js/jquery-1.8.3.min.js' %}"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="{% static 'js/move-top.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/easing.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/checkLogStatus.js' %}"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling---->
+
+</head>
+<body>
+<!-- header -->
+<div class="header" id="home">
+	<div class="header-top">
+		<div class="container">
+			<div class="logo">
+				<a href="home.html"><img src="{% static 'image/home/logo.png' %}"></a>
+			</div>
+			<div class="top-menu">
+				<span class="menu"> </span>
+				<ul>
+					<li><a href="home.html">{{ menue.0 }}</a></li>
+					<li><a href="#about"class="scroll">{{ menue.1 }}</a></li>
+					<li><a href="#trainers" class="scroll">{{ menue.2 }}</a></li>
+					<li><a href="#classes" class="scroll">{{ menue.3 }}</a></li>
+					<li><a href="#tips" class="scroll">{{ menue.4 }}</a></li>
+					<li><a id="userCenter" href="/user/" class="goTo">{{ menue.5 }}</a></li>
+				</ul>
+			</div>
+			<!-- script-for-menu -->
+				<script>
+					$("span.menu").click(function(){
+						$(".top-menu ul").slideToggle("slow" , function(){
+						});
+					});
+				</script>
+				<!-- script-for-menu -->
+
+			<div class="clearfix"></div>
+			<div class="header-info">
+			<h1>{{ header1_1 }}<span>{{ header1_2 }}</span></h1>
+			<h2>{{ header2 }}</h2>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End header-->
+	<div class="content">
+		<div class="about-section" id="about">
+			<div class="container">
+				<div class="col-md-6 about-grid">
+				<h2>运动 <span>处方</span></h2>
+				<p>针对需求的个性化运动方案制定，大幅提升运动效率</p>
+				</div>
+				<div class="col-md-6 about-grid1">
+				<p>体育锻炼与任何事物一样，有着双重性，运动量过小或过大，都达不到目的，严格把握运动量的幅度与界限，只有这样才能获得良好的效果。</p>
+				<p class="text">运动处方与普通的体育锻炼和一般的治疗方法不同，运动处方是有很强的针对性、有明确的目的、有选择、有控制的运动疗法。 </p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+	<div class="trainer-section" >
+		<div  class="container">
+            <h2 style="color: white;margin-bottom: 22px" align="center">
+                {{ menue.1 }}
+            </h2>
+				<div class="trainer-grids">
+					<div class="col-md-4 trainer-grid">
+						<img src="{% static 'image/home/aerobics.jpg' %}">
+							<div class="trainer-info">
+								<h3>有氧运动</h3>
+						</div>
+				</div>
+				<div class="col-md-4 trainer-grid span">
+						<img src="{% static 'image/home/strength.jpg' %}">
+							<div class="trainer-info">
+								<h3>力量训练</h3>
+							</div>
+					</div>
+				<div class="col-md-4 trainer-grid">
+						<img src="{% static 'image/home/streching.jpg' %}">
+							<div class="trainer-info">
+								<h3>柔韧运动</h3>
+						</div>
+				</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div class="trainersection-info">
+			<div class="container">
+				<div class="trainer-infogrids">
+					<div class="col-md-4 trainer-grid1">
+						<img src="{% static 'image/home/pic4.png' %}">
+							<h4>1256 Members</h4>
+				</div>
+				<div class="col-md-4 trainer-grid1 label1">
+					<img src="{% static 'image/home/pic5.png' %}">
+						<h4>36 Trainers</h4>
+				</div>
+				<div class="col-md-4 trainer-grid1 label2">
+					<img src="{% static 'image/home/pic6.png' %}">
+						<h4>196 Equipments</h4>
+				</div>
+					<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>
+		<div class="our-trainers" id="trainers">
+			<div class="container">
+				<div class="ourtrainers-header">
+					<h3>{{ menue.2 }}</h3>
+					<p>获取适合你的运动方案</p>
+				</div>
+				<div class="ourtrainer-grids">
+				<div class="col-md-4 ourtrainer-grid">
+				<h4>间歇跑</h4>
+				<p>耐力提升、体质强化</p>
+				<img src="{% static 'image/home/间歇跑.jpg' %}" alt="">
+				<div class="ourtrainer-info">
+								<p><span>高强度训练，以最大摄氧量激发体能，具有很强的耐力提升效率。</span></p>
+									<a href="#"><img src="{% static 'image/home/facebook.png' %}"></a>
+						</div>
+				</div>
+				<div class="col-md-4 ourtrainer-grid">
+				<h4>瑜伽塑形</h4>
+				<p>低强度的高效瘦身塑形运动</p>
+				<img src="{% static 'image/home/瑜伽塑形.jpg' %}" alt="">
+				<div class="ourtrainer-info">
+								<p><span>瑜伽具有加快血液循环和新陈代谢的效果，不出汗也能减脂瘦身，感受肌肉的变化，塑造完美体形</span></p>
+										<a href="#"><img src="{% static 'image/home/twitter1.png' %}"></a>
+						</div>
+				</div>
+				<div class="col-md-4 ourtrainer-grid">
+				<h4>阻抗训练</h4>
+				<p>增强肌肉、提升耐力</p>
+				<img src="{% static 'image/home/阻抗训练.jpg' %}" alt="">
+				<div class="ourtrainer-info">
+								<p><span>利用阻抗训练，定向增强肌肉，提高力量，同时提升身体耐力</span></p>
+										<a href="#"><img src="{% static 'image/home/google.png' %}"></a>
+						</div>
+				</div>
+				<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div class="our-class" id="classes">
+			<div class="container">
+				<div class="ourclass-header">
+					<h3>{{ menue.3 }}</h3>
+				<p>科学运动，增强效力</p>
+		</div>
+				<div class="ourclass-grids">
+					<div class=" col-md-4 ourclass-grid">
+					<img src="{% static 'image/home/瘦腿训练.jpg' %}" alt="">
+						<div class="fitness">
+					<h4>瘦腿训练</h4>
+						<div class="joiningdate">
+							<div class="join">
+						<h5>训练周期：</h5>
+				</div>
+					<div class="weeks">
+				<p>四周</p>
+				</div>
+			<div class="clearfix"></div>
+		</div>
+			<div class="timing">
+				<div class="times">
+					<h5>难度指数：</h5>
+			</div>
+			<div class="time">
+				<p>4.6</p>
+		</div>
+			<div class="clearfix"></div>
+		</div>
+			<a href="#">获取方案</a>
+		</div>
+		</div>
+		<div class=" col-md-4 ourclass-grid">
+					<img src="{% static 'image/home/马甲线养成.jpg' %}" alt="">
+						<div class="fitness">
+					<h4>马甲线养成</h4>
+						<div class="joiningdate">
+							<div class="join">
+						<h5>训练周期:</h5>
+				</div>
+					<div class="weeks">
+				<p>四周</p>
+				</div>
+			<div class="clearfix"></div>
+		</div>
+			<div class="timing">
+				<div class="times">
+					<h5>难度指数：</h5>
+			</div>
+			<div class="time">
+				<p>4.7</p>
+		</div>
+			<div class="clearfix"></div>
+		</div>
+			<a href="#">获取方案</a>
+		</div>
+		</div>
+		<div class=" col-md-4 ourclass-grid">
+					<img src="{% static 'image/home/pic12.jpg' %}" alt="">
+						<div class="fitness">
+					<h4>瑜伽身体韵律</h4>
+						<div class="joiningdate">
+							<div class="join">
+						<h5>训练周期：</h5>
+				</div>
+					<div class="weeks">
+				<p>四周</p>
+				</div>
+			<div class="clearfix"></div>
+		</div>
+			<div class="timing">
+				<div class="times">
+					<h5>难度指数：</h5>
+			</div>
+			<div class="time">
+				<p>2.3</p>
+		</div>
+			<div class="clearfix"></div>
+		</div>
+			<a href="#">获取方案</a>
+		</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+</div>
+<div id="testimonial" class="Testimonials">
+		<div class="container">
+			<!---- testmonials ---->
+		<div class="test-monials">
+				<!----sreen-gallery-cursual---->
+						<div class="sreen-gallery-cursual">
+							 <!-- requried-jsfiles-for owl -->
+							<link href="{% static 'css/owl.carousel.css' %}" rel="stylesheet">
+							    <script src="{% static 'js/owl.carousel.js' %}"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+							 <!-- //requried-jsfiles-for owl -->
+							 <!-- start content_slider -->
+						       <div id="owl-demo" class="owl-carousel">
+					                <div class="item">
+					                		<div class="col-md-3 testmonial-img">
+						                		<img src="{% static 'image/home/gal-img11.png' %}" class="img-responsive" alt=""/>
+					                		</div>
+					                		<div class="col-md-9 testmonial-text">
+						                		<p>Lorem ipsum dolor sit amet, offendit volutpat sea ex, at omnium scripta pro, at omnium scripta pro, ei mea oratio malorum forensibus. ei mea oratio malorum forensibus. Sed ei omnes laoreet posidonium ei mea oratio malorum forensibus.</p>
+						                		<h4>John Doe</h4>
+					                		</div>
+					                		<div class="clearfix"> </div>
+					                </div>
+					                 <div class="item">
+					                		<div class="col-md-3 testmonial-img">
+						                		<img src="{% static 'image/home/gal-img2.png' %}" class="img-responsive" alt=""/>
+					                		</div>
+					                		<div class="col-md-9 testmonial-text">
+											<p>If I don't feel confident about my body, I'm not going to sit at home and feel sorry for myself and not do something about it. It's all about taking action and not being lazy. So you do the work, whether it's fitness or whatever.</p>
+						                		<h4>John Doe</h4>
+						                	
+					                		</div>
+					                		<div class="clearfix"> </div>
+					                </div>
+					                 <div class="item">
+					                	<div class="col-md-3 testmonial-img">
+						                		<img src="{% static 'image/home/gal-img3.png' %}" class="img-responsive" alt=""/>
+					                		</div>
+					                		<div class="col-md-9 testmonial-text">
+											<p>If I don't feel confident about my body, I'm not going to sit at home and feel sorry for myself and not do something about it. It's all about taking action and not being lazy. So you do the work, whether it's fitness or whatever.</p>
+						                		<h4>John Doe</h4>
+						                	
+					                		</div>
+					                		<div class="clearfix"> </div>
+					                </div>
+									 <div class="item">
+					                		<div class="col-md-3 testmonial-img">
+						                		<img src="{% static 'image/home/gal-img4.png' %}" class="img-responsive" alt=""/>
+					                		</div>
+					                		<div class="col-md-9 testmonial-text">
+											<p>If I don't feel confident about my body, I'm not going to sit at home and feel sorry for myself and not do something about it. It's all about taking action and not being lazy. So you do the work, whether it's fitness or whatever.</p>
+						                		<h4>John Doe</h4>
+						                		
+					                		</div>
+					                		<div class="clearfix"> </div>
+					                </div>
+				              </div>
+						<!--//sreen-gallery-cursual---->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---- testmonials ---->
+		<div class="fitnesstips-section" id="tips">
+			<div class="container">
+				<div class="fitnesstip-header">
+					<h3>{{ menue.4 }}</h3>
+				<p>分享你的运动体验，记录每一刻变化，坚持塑造完美的自己</p>
+		</div>
+			</div>
+		<div class="fitnesstips-grids">
+			<div class="fitnesstips-grid1">
+				<div class="col-md-3 left-grid">
+					<img src="{% static 'image/home/pic13.jpg' %}" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-9 right-grid">
+				<h4>I'm not going to sit at home and feel sorry </h4>
+				<p>If I don't feel confident about my body, I'm not going to sit at home and feel sorry for myself and not do something about it. It's all about taking action and not being lazy. So you do the work, whether it's fitness or whatever. </p>
+				<div class="details">
+				<div class="date">
+				<h5>10/01/15</h5>
+			</div>
+			<div class="detail">
+			<a href="#">details</a>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="fitnesstips-grid2">
+				<div class="col-md-9 left-grid1">
+				<h4>I'm not going to sit at home and feel sorry </h4>
+				<p>If I don't feel confident about my body, I'm not going to sit at home and feel sorry for myself and not do something about it. It's all about taking action and not being lazy. So you do the work, whether it's fitness or whatever. </p>
+				<div class="details">
+				<div class="date">
+				<h5>10/01/15</h5>
+			</div>
+			<div class="detail">
+			<a href="#">details</a>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+					
+				</div>
+				<div class="col-md-3 right-grid1">
+				<img src="{% static 'image/home/pic14.jpg' %}" class="img-responsive" alt="">
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="fitnesstips-grid3">
+				<div class="col-md-3 left-grid">
+					<img src="{% static 'image/home/pic15.jpg' %}" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-9 right-grid">
+				<h4>I'm not going to sit at home and feel sorry </h4>
+				<p>If I don't feel confident about my body, I'm not going to sit at home and feel sorry for myself and not do something about it. It's all about taking action and not being lazy. So you do the work, whether it's fitness or whatever. </p>
+				<div class="details">
+				<div class="date">
+				<h5>10/01/15</h5>
+			</div>
+			<div class="detail">
+			<a href="#">details</a>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div class="contact-section-bottom" id="contact">
+					<div class="contact-form">
+						<form>
+						<div class="col-md-6 contact-left">
+							<input type="text" class="text" value="标题" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '标题';}">
+							<input type="text" class="text" value="运动" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '运动';}">
+{#							<input type="text" class="text" value="Phone*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone*';}">#}
+						</div>
+						<div class="col-md-6 contact-right">
+							<textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '运动经历';}">运动经历</textarea>
+						</div>
+							<input type="submit" value="分享" />
+						</form>
+					</div>
+				</div>
+	</div>
+	<div class="footer-section">
+			<div class="container">
+				<div class="footer-top">
+				<a href="#"><img src="{% static 'image/home/footer-icon.png' %}"></a>
+				<span> </span>
+			<div class="social-icons">
+				<a href="#"><i class="facebook"></i></a>
+				<a href="#"><i class="twitter"></i></a>
+				</div>
+				<label> </label>
+					</div>
+			<div class="footer-bottom">
+							<p>Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</div>
+	</div>
+	
+<!-- footer -->
+</body>
+<script>
+    r = checklogIn();
+    if(!r){
+        $("#userCenter").text("请登录");
+        $("#userCenter").attr("href","/user/sigIn/");
+    }else{
+        $("#userCenter").text("{{ menue.5 }}");
+        $("#userCenter").attr("href","/user/");
+    }
+    $("#testimonial").fadeOut();
+</script>
+</html>

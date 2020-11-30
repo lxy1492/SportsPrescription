@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'js/addSport.js' %}"></script>
+</head>
+<body>
+<div class="header">
+    <h3 class="title">
+        {{ title }}
+    </h3>
+    <div>
+        <p style="display: inline-block">选择所述课程</p>
+        <select style="display: inline-block">
+            <option>
+                <p></p>
+            </option>
+            {% for c in courseList %}
+                <option>
+                    <p>{{ c }}</p>
+                </option>
+            {% endfor %}
+            <option>
+                <p>其他...</p>
+            </option>
+        </select>
+        <input type="text" placeholder="输入名称" id="inputName">
+        <input type="text" placeholder="步骤" id="setStep">
+        <input type="text" placeholder="呼吸" id="setBreath">
+        <input type="text" placeholder="常见错误" id="setNotice">
+        <input type="file" accept=".ipg,.png,.gif,.jpeg">
+        <button>创建</button>
+    </div>
+    <hr>
+    <div align="center">
+        <h4>选择属性</h4>
+        <p style="margin: 0px;size: 16px;color: darkgray">先创建才能设置属性</p>
+    </div>
+    <div class="effectAndtarget">
+            <table align="center">
+                <tr>
+                    {% for e in effect %}
+                        <td>
+                            <input onchange="setEffect(this)" class="checkEffect" type="checkbox" data-effect="{{ e }}" style="display: inline-block"><p style="display: inline-block">{{ e }}</p>
+                        </td>
+                    {% endfor %}
+                </tr>
+            <tr>
+                {% for t in target %}
+                <td>
+                            <input onchange="setTarget(this)" class="checkTarget" type="checkbox" data-target={{ t }} style="display: inline-block"><p style="display: inline-block">{{ t }}</p>
+                        </td>
+                {% endfor %}
+            </tr>
+            </table>
+
+        </div>
+        <hr>
+</div>
+</body>
+</html>
